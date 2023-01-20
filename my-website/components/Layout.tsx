@@ -1,3 +1,4 @@
+import useTheme from "next-theme/dist/useTheme";
 import Head from "next/head";
 import Header from "@/sections/Header";
 import Footer from "@/sections/Footer";
