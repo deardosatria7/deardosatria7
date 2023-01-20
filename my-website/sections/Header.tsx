@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
-import { BsSun } from "react-icons/bs";
-import { MdOutlineNightlight } from "react-icons/md";
 
 export default function Header({ children }: any) {
   const { systemTheme, theme, setTheme } = useTheme();

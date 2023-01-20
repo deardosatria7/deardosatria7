@@ -13,9 +13,6 @@ const Layout = ({ children }: any) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="min-h-screen bg-white px-10 md:px-20 dark:bg-zinc-900">
-        <Header>
-          <h1 className="text-xl font-bold dark:text-white">Hello World</h1>
-        </Header>
         {children}
         <Footer />
       </div>

@@ -1,4 +1,5 @@
 import Image from "next/legacy/image";
+import Header from "./Header";
 import Link from "next/link";
 import { AiOutlineInstagram, AiFillGithub } from "react-icons/ai";
 import { BsTelegram } from "react-icons/bs";
@@ -7,6 +8,9 @@ import profilePic from "../public/deardo.jpg";
 const Hero = () => {
   return (
     <>
+      <Header>
+        <h1 className="text-xl font-bold dark:text-white">Hello World!</h1>
+      </Header>
       <section>
         <div className="lg:flex lg:justify-center lg:items-center">
           <div className="bg-gray-100 rounded-2xl py-4 dark:bg-neutral-800">
@@ -26,7 +30,7 @@ const Hero = () => {
                   </p>
                 </div>
                 <div className="flex justify-center gap-6 py-1 lg:justify-start lg:px-10">
-                  <a href="#" className="bg-gray-500 hover:bg-gray-600 text-white text-sm px-5 py-1 rounded-md dark:bg-neutral-700 dark:hover:bg-neutral-500">
+                  <a href="/about" className="bg-gray-500 hover:bg-gray-600 text-white text-sm px-5 py-1 rounded-md dark:bg-neutral-700 dark:hover:bg-neutral-500">
                     About me
                   </a>
                   <Link href="/projects" legacyBehavior>
