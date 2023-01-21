@@ -26,7 +26,7 @@ const Hero = () => {
                   <h3 className="font-inter text-3xl text-sky-900 font-medium md:text-4xl dark:text-teal-500">Deardo Satria</h3>
                   <h4 className="font-inter text-md pt-1 pb-5 md:text-lg dark:text-white">Lifelong learner</h4>
                   <p className="mx-auto leading-7 font-sans font-light text-gray-800 text-md md:text-lg max-w-lg dark:text-white">
-                    <span className="font-normal">He/him</span>. Still a beginner when it comes to coding. There are few projects that I made (mostly just my coursework lol). Love to code, creating errors and bugs everyday.
+                    <span className="font-normal">He/him</span>. Undergraduate student at Sebelas Maret University. There are few projects that I made (mostly just my coursework lol). Love to code, creating errors and bugs everyday.
                   </p>
                 </div>
                 <div className="flex justify-center gap-6 py-1 lg:justify-start lg:px-10">
