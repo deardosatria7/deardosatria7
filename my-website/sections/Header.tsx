@@ -9,9 +9,8 @@ export default function Header({ children }: any) {
   if (!mounted) return null;
 
   const renderThemeChanger = () => {
+    const currTheme = theme === "system" ? systemTheme : theme;
 
-    const currTheme = theme === 'system' ? systemTheme : theme;
-    
     if (currTheme === "dark") {
       return (
         <svg // bulb icon
@@ -53,7 +52,7 @@ export default function Header({ children }: any) {
   return (
     <>
       <nav className="py-10 flex justify-between">
-        {children}
+        <div className="flex gap-7 justify-center">{children}</div>
         <ul className="flex justify-center gap-2">
           <li>{renderThemeChanger()}</li>
         </ul>
