@@ -1,4 +1,4 @@
-Hi there! Welcome to my github page!
+👋 Hi there! Welcome to my github page!
 <br/><br/>
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/deardosatria_) ![](https://komarev.com/ghpvc/?username=deardosatria7)
 <br/><br/>
