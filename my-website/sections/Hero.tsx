@@ -29,7 +29,7 @@ const Hero = () => {
                     <span className="font-normal">He/him</span>. Undergraduate student at Sebelas Maret University. There are few projects that I made (mostly just my coursework lol). Love to code, creating errors and bugs everyday.
                   </p>
                 </div>
-                <div className="flex justify-evenly gap-4 lg:justify-start lg:px-10">
+                <div className="flex justify-center gap-4 lg:justify-start lg:px-10">
                   <a href="/about" className="bg-gray-500 hover:bg-gray-600 text-white text-sm px-3 py-1 rounded-md dark:bg-neutral-700 dark:hover:bg-neutral-500">
                     About me
                   </a>
