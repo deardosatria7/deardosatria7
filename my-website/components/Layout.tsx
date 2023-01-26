@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Footer from "@/sections/Footer";
-import { Main } from "next/document";
 
 const Layout = ({ children }: any) => {
   return (
