@@ -20,7 +20,7 @@ const projects = () => {
         <div className="flex flex-col justify-center md:flex-row md:flex-wrap md:gap-5">
           <div className="flex-1 basis-1/3">
             <Card>
-              <Image src={Alpha} layout="responsive" />
+              <Image src={Alpha} layout="responsive" alt="" />
               <div className="py-2">
                 <div className="text-lg font-medium pb-2">Bimbel Alpha</div>
                 <div className="text-sm">Static website made with HTML and Bootstrap CSS.</div>
@@ -32,7 +32,7 @@ const projects = () => {
           </div>
           <div className="flex-1 basis-1/3">
             <Card>
-              <Image src={CV} layout="responsive" />
+              <Image src={CV} layout="responsive" alt="" />
               <div className="py-2">
                 <div className="text-lg font-medium pb-2">My Personal Website</div>
                 <div className="text-sm">My own website made with Next.JS and Tailwindcss.</div>
