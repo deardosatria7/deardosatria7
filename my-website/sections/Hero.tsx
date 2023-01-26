@@ -13,7 +13,7 @@ const Hero = () => {
       </Header>
       <section>
         <div className="lg:flex lg:justify-center lg:items-center">
-          <div className="bg-gray-100 rounded-2xl py-4 dark:bg-neutral-800">
+          <div className="bg-gray-100 rounded-2xl py-4 mb-6 dark:bg-neutral-800">
             {/* Profile picture */}
             <div className="lg:flex lg:justify-center lg:pt-10 lg:px-10">
               <div className="relative mx-auto my-5 rounded-full bg-gradient-to-t from-gray-200 to-white w-40 h-40 overflow-hidden lg:w-60 lg:h-60 lg:px-20 lg:my-auto">
@@ -29,7 +29,7 @@ const Hero = () => {
                     <span className="font-normal">He/him</span>. Undergraduate student at Sebelas Maret University. There are few projects that I made (mostly just my coursework lol). Love to code, creating errors and bugs everyday.
                   </p>
                 </div>
-                <div className="flex justify-center gap-4 lg:justify-start lg:px-10">
+                <div className="flex justify-center mb-4 gap-4 lg:justify-start lg:px-10">
                   <a href="/about" className="bg-gray-500 hover:bg-gray-600 text-white text-sm px-3 py-1 rounded-md dark:bg-neutral-700 dark:hover:bg-neutral-500">
                     About me
                   </a>
