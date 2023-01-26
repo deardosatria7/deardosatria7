@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Footer from "@/sections/Footer";
+import { Main } from "next/document";
 
 const Layout = ({ children }: any) => {
   return (
@@ -10,10 +11,7 @@ const Layout = ({ children }: any) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="min-h-screen bg-white px-10 md:px-20 dark:bg-zinc-900 transform transition duration-300">
-        {children}
-        <Footer />
-      </div>
+      <section className="min-h-screen bg-white px-10 md:px-20 dark:bg-zinc-900 transform transition duration-300">{children}</section>
     </>
   );
 };

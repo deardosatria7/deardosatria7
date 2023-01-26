@@ -5,6 +5,7 @@ import Card from "@/components/card";
 import Image from "next/legacy/image";
 import Alpha from "../public/alpha.jpg";
 import CV from "../public/cv.png";
+import Footer from "@/sections/Footer";
 
 const projects = () => {
   return (
@@ -15,7 +16,7 @@ const projects = () => {
         </Link>
         <h1 className="text-xl font-bold dark:text-white">Projects</h1>
       </Header>
-      <section>
+      <main>
         <div className="flex flex-col justify-center md:flex-row md:flex-wrap md:gap-5">
           <div className="flex-1 basis-1/3">
             <Card>
@@ -39,7 +40,8 @@ const projects = () => {
             </Card>
           </div>
         </div>
-      </section>
+      </main>
+      <Footer />
     </>
   );
 };

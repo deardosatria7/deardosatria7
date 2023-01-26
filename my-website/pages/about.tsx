@@ -1,6 +1,7 @@
 import Header from "@/sections/Header";
 import Link from "next/link";
 import { IoChevronBack } from "react-icons/io5";
+import Footer from "@/sections/Footer";
 
 const about = () => {
   return (
