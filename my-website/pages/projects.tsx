@@ -20,8 +20,8 @@ const projects = () => {
           <div className="flex-1 basis-1/3">
             <Card>
               <Image src={Alpha} layout="responsive" />
-              <div className="pb-3">
-                <div className="text-lg font-medium pb-3">Bimbel Alpha</div>
+              <div className="py-2">
+                <div className="text-lg font-medium pb-2">Bimbel Alpha</div>
                 <div className="text-sm">Static website made with HTML and Bootstrap CSS.</div>
                 <a target="_blank" href="https://deardosatria7.github.io/Bimbel-Alpha" rel="noopener noreferrer">
                   <span className="text-blue-700 dark:text-blue-400 font-medium text-sm">Click here</span> to see more
@@ -32,12 +32,9 @@ const projects = () => {
           <div className="flex-1 basis-1/3">
             <Card>
               <Image src={CV} layout="responsive" />
-              <div className="pb-3">
-                <div className="text-lg font-medium pb-3">My Personal Website</div>
+              <div className="py-2">
+                <div className="text-lg font-medium pb-2">My Personal Website</div>
                 <div className="text-sm">My own website made with Next.JS and Tailwindcss.</div>
-                <a target="_blank" href="https://github.com/deardosatria7/" rel="noopener noreferrer">
-                  <span className="text-blue-700 dark:text-blue-400 font-medium text-sm">Click here</span> to see more
-                </a>
               </div>
             </Card>
           </div>

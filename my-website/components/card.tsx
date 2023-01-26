@@ -1,7 +1,7 @@
 const card = ({ children }: any) => {
   return (
     <>
-      <div className="flex-col my-2 text-center shadow-xl rounded-md p-3 hover:scale-105 transform duration-200 bg-white dark:bg-neutral-800">{children}</div>
+      <div className="flex-col my-2 text-start lg:text-center shadow-xl rounded-md p-3 hover:scale-105 transform duration-200 bg-white dark:bg-neutral-800">{children}</div>
     </>
   );
 };
