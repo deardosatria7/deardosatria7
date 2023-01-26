@@ -3,7 +3,7 @@ import Link from "next/link";
 import { IoChevronBack } from "react-icons/io5";
 import Card from "@/components/card";
 import Image from "next/legacy/image";
-import Alpha from "../public/alpha.png";
+import Alpha from "../public/alpha.jpg";
 import CV from "../public/cv.png";
 
 const projects = () => {
