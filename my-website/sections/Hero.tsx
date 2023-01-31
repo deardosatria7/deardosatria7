@@ -23,10 +23,10 @@ const Hero = () => {
               {/* Description */}
               <div className="lg:flex-col">
                 <div className="text-center px-10 pb-7 lg:text-left">
-                  <h3 className="font-inter text-3xl text-sky-900 font-medium md:text-4xl dark:text-teal-500">Deardo Satria</h3>
-                  <h4 className="font-inter text-md pt-1 pb-5 md:text-lg dark:text-white">Lifelong learner</h4>
-                  <p className="mx-auto leading-7 font-sans font-light text-gray-800 text-md md:text-lg max-w-lg dark:text-white">
-                    <span className="font-normal">He/him</span>. Self-taught programming student, focused on front end developers and mobile apps. There are few projects that I made (mostly just my coursework 🤣). Trying to become one
+                  <h3 className="font-medium text-3xl text-sky-900 md:text-4xl dark:text-teal-400">Deardo Satria</h3>
+                  <h4 className="font-medium text-md pt-1 pb-5 md:text-lg dark:text-white">Lifelong learner</h4>
+                  <p className="mx-auto leading-7 font-light text-gray-800 text-md md:text-lg max-w-lg dark:text-white">
+                    <span className="font-medium">He/him</span>. Self-taught programming student, focused on front end developers and mobile apps. There are few projects that I made (mostly just my coursework 🤣). Trying to become one
                     percent better everyday.
                   </p>
                 </div>
