@@ -21,7 +21,9 @@ const projects = () => {
         <div className="flex flex-col justify-center md:flex-row md:flex-wrap md:gap-5">
           <div className="flex-1 basis-1/4">
             <Card>
-              <Image src={Alpha} layout="responsive" alt="" />
+              <div className="opacity-70">
+                <Image src={Alpha} layout="responsive" alt="" />
+              </div>
               <div className="py-2">
                 <div className="text-lg font-medium pb-2">Bimbel Alpha</div>
                 <div className="text-sm">Static website made with HTML and Bootstrap CSS.</div>
@@ -33,7 +35,9 @@ const projects = () => {
           </div>
           <div className="flex-1 basis-1/4">
             <Card>
-              <Image src={Mat} layout="responsive" alt="" />
+              <div className="opacity-70">
+                <Image src={Mat} layout="responsive" alt="" />
+              </div>
               <div className="py-2">
                 <div className="text-lg font-medium pb-2">Math learning media</div>
                 <div className="text-sm">High school mathematics learning media based on flash player.</div>
@@ -45,7 +49,9 @@ const projects = () => {
           </div>
           <div className="flex-1 basis-1/4">
             <Card>
-              <Image src={Semar} layout="responsive" alt="" />
+              <div className="opacity-70">
+                <Image src={Semar} layout="responsive" alt="" />
+              </div>
               <div className="py-2">
                 <div className="text-lg font-medium pb-2">Semar News</div>
                 <div className="text-sm">News portal app for android using Flutter and News API.</div>
