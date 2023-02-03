@@ -15,13 +15,13 @@ const projects = () => {
         <Link href={"/"} className="text-2xl">
           <IoChevronBack />
         </Link>
-        <h1 className="text-xl font-bold dark:text-white">Projects</h1>
+        <h1 className="text-xl font-bold dark:text-white">/projects</h1>
       </Header>
       <main>
         <div className="flex flex-col justify-center md:flex-row md:flex-wrap md:gap-5">
           <div className="flex-1 basis-1/4">
             <Card>
-              <div className="opacity-70">
+              <div className="dark:opacity-70">
                 <Image src={Alpha} layout="responsive" alt="" />
               </div>
               <div className="py-2">
@@ -35,7 +35,7 @@ const projects = () => {
           </div>
           <div className="flex-1 basis-1/4">
             <Card>
-              <div className="opacity-70">
+              <div className="dark:opacity-70">
                 <Image src={Mat} layout="responsive" alt="" />
               </div>
               <div className="py-2">
@@ -49,7 +49,7 @@ const projects = () => {
           </div>
           <div className="flex-1 basis-1/4">
             <Card>
-              <div className="opacity-70">
+              <div className="dark:opacity-70">
                 <Image src={Semar} layout="responsive" alt="" />
               </div>
               <div className="py-2">
