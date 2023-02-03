@@ -31,11 +31,11 @@ const Hero = () => {
                   </p>
                 </div>
                 <div className="flex justify-center mb-4 gap-4 lg:justify-start lg:px-10">
-                  <a href="/about" className="bg-gray-500 hover:bg-gray-600 text-white text-sm px-3 py-1 rounded-md dark:bg-neutral-700 dark:hover:bg-neutral-500">
+                  <a href="/about" className="font-sans bg-gray-500 hover:bg-gray-600 text-white text-sm px-3 py-1 rounded-md dark:bg-neutral-700 dark:hover:bg-neutral-500">
                     About me
                   </a>
                   <Link href="/projects" legacyBehavior>
-                    <a className="bg-gray-500 hover:bg-gray-600 text-white text-sm px-3 py-1 rounded-md dark:bg-neutral-700 dark:hover:bg-neutral-500">Projects</a>
+                    <a className="font-sans bg-gray-500 hover:bg-gray-600 text-white text-sm px-3 py-1 rounded-md dark:bg-neutral-700 dark:hover:bg-neutral-500">Projects</a>
                   </Link>
                 </div>
                 <div className="flex justify-center gap-8 text-3xl my-3 text-gray-600 lg:justify-start lg:px-10 lg:pt-2">
