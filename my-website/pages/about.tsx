@@ -15,7 +15,7 @@ const about = () => {
       <div className="flex flex-col justify-center p-10 bg-gray-100 rounded-xl dark:bg-zinc-800 md:mx-20 lg:mx-40">
         <div className="text-xl font-medium">Hello There!!</div>
         <div className="flex flex-col py-4 gap-y-4 text-gray-600 dark:text-gray-300">
-          <div>Greetings, welcome to my page. My name is Deardo Satria, based in Indonesia. I&apos;m currently in my final year of study focusing on Computer and Information Technology Education.</div>
+          <div>Greetings, welcome to my page. My name is Deardo Satria, based in Indonesia. I&apos;m currently in my final year of study majoring in Computer and Information Technology Education.</div>
           <div>Started coding in 2020, still have a lot to learn. I have interest in UI/UX development, mobile app development, and Python programming language. This website was created using NextJs and tailwindcss.</div>
           <div>I strive to improve and become better at coding 😁</div>
           <div className="text-center pt-10 pb-6">Programming languages I&apos;ve used:</div>
