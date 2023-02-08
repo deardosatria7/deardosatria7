@@ -26,7 +26,7 @@ const projects = () => {
               </div>
               <div className="py-2">
                 <div className="text-lg font-medium pb-2">Bimbel Alpha</div>
-                <div className="text-sm">Static website made with HTML and Bootstrap CSS.</div>
+                <div className="text-sm">Website template made with HTML and Bootstrap CSS.</div>
                 <a target="_blank" href="https://deardosatria7.github.io/Bimbel-Alpha" rel="noopener noreferrer">
                   <span className="text-blue-700 dark:text-blue-400 font-medium text-sm">Click here</span> to see more
                 </a>
