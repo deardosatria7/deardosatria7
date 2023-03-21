@@ -1,4 +1,4 @@
-import themeChanger from "@/components/themeChanger";
+import ThemeChanger from "@/components/ThemeChanger";
 
 export default function Header({children}: any) {
   return (
@@ -6,7 +6,7 @@ export default function Header({children}: any) {
       <nav className="py-10 flex justify-between">
         <div className="flex gap-5 justify-center">{children}</div>
         <ul className="flex justify-center gap-2">
-          <li>{themeChanger()}</li>
+          <li>{ThemeChanger()}</li>
         </ul>
       </nav>
     </>

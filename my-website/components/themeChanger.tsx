@@ -1,7 +1,7 @@
 import {useState, useEffect} from "react";
 import {useTheme} from "next-themes";
 
-const themeChanger = () => {
+const ThemeChanger = () => {
   const {systemTheme, theme, setTheme} = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -56,4 +56,4 @@ const themeChanger = () => {
   return <>{renderThemeChanger()}</>;
 };
 
-export default themeChanger;
+export default ThemeChanger;
