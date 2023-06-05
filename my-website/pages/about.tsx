@@ -16,16 +16,23 @@ const about = () => {
         <div className="text-xl font-medium">Hello There!!</div>
         <div className="flex flex-col py-4 gap-y-4 text-gray-600 dark:text-gray-300">
           <div>
-            Greetings, welcome to my page. My name is Deardo Satria, based in
-            Indonesia. I&apos;m currently in my final year of study majoring in
-            Computer and Information Technology Education.
+            Greetings, welcome to my page. I&apos;m Deardo Satria, Computer and
+            Information Technology Education student based in Indonesia.
+            Currently in my final year of study, I have been actively engaged in
+            coding since 2020 and continuously seek opportunities to enhance my
+            skills.
           </div>
           <div>
-            Started coding in 2020, still have a lot to learn. I have interest
-            in UI/UX development, mobile app development, and Python programming
-            language. This website was created using NextJs and tailwindcss.
+            My primary areas of interest are web development, mobile app
+            development, and Python programming language. This website,
+            developed using NextJs and tailwindcss, showcases my dedication to
+            creating robust and visually appealing digital experiences.
           </div>
-          <div>I strive to improve and become better at coding 😁</div>
+          <div>
+            I strive to improve and become better at coding. Thank you for
+            visiting my page, and I look forward to embarking on new coding
+            ventures 😁
+          </div>
           <div className="text-center pt-10 pb-6">
             Programming stacks I&apos;ve used:
           </div>

@@ -38,8 +38,7 @@ const Hero = () => {
                     <span className="font-medium">He/him</span>. Self-taught
                     programming student, focused on front end developer and
                     mobile app. There are few projects that I made (mostly just
-                    my coursework 🤣). Trying to become a percent better
-                    everyday.
+                    my coursework 🤣). Trying to be one percent better everyday.
                   </p>
                 </div>
                 <div className="flex justify-center mb-4 gap-4 lg:justify-start lg:px-10">
