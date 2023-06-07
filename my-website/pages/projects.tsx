@@ -24,6 +24,27 @@ const projects = () => {
             <Card>
               <a
                 target="_blank"
+                href="https://deardosatria7-password-generator.vercel.app/"
+                rel="noopener noreferrer"
+              >
+                <div className="dark:opacity-70">
+                  <Image src={pwd} layout="responsive" alt="" />
+                </div>
+                <div className="py-2">
+                  <div className="text-lg font-medium pb-2">
+                    Password generator
+                  </div>
+                  <div className="text-sm">
+                    Custom strong password generator.
+                  </div>
+                </div>
+              </a>
+            </Card>
+          </div>
+          <div className="">
+            <Card>
+              <a
+                target="_blank"
                 href="https://deardosatria7.github.io/Bimbel-Alpha"
                 rel="noopener noreferrer"
               >
@@ -56,46 +77,6 @@ const projects = () => {
                   <div className="text-sm">
                     High school mathematics learning media based on flash
                     player.
-                  </div>
-                </div>
-              </a>
-            </Card>
-          </div>
-          <div className="">
-            <Card>
-              <a
-                target="_blank"
-                href="https://github.com/Rizakalhasbi/NewsApp"
-                rel="noopener noreferrer"
-              >
-                <div className="dark:opacity-70">
-                  <Image src={Semar} layout="responsive" alt="" />
-                </div>
-                <div className="py-2">
-                  <div className="text-lg font-medium pb-2">Semar News</div>
-                  <div className="text-sm">
-                    News portal app for android using Flutter and News API.
-                  </div>
-                </div>
-              </a>
-            </Card>
-          </div>
-          <div className="">
-            <Card>
-              <a
-                target="_blank"
-                href="https://deardosatria7-password-generator.vercel.app/"
-                rel="noopener noreferrer"
-              >
-                <div className="dark:opacity-70">
-                  <Image src={pwd} layout="responsive" alt="" />
-                </div>
-                <div className="py-2">
-                  <div className="text-lg font-medium pb-2">
-                    Password generator
-                  </div>
-                  <div className="text-sm">
-                    Custom strong password generator.
                   </div>
                 </div>
               </a>
