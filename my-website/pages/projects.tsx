@@ -4,7 +4,7 @@ import {IoChevronBack} from "react-icons/io5";
 import Card from "@/components/card";
 import Image from "next/legacy/image";
 import Alpha from "../public/alpha.jpg";
-import Semar from "../public/semar.jpg";
+import learn from "../public/learnPython.jpg";
 import Mat from "../public/mat.png";
 import pwd from "../public/pwd-gen.jpg";
 import Footer from "@/sections/Footer";
@@ -21,6 +21,25 @@ const projects = () => {
       <main>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 my-2">
           <div className="">
+            <Card>
+              <a
+                target="_blank"
+                href="https://belajar-python.vercel.app/"
+                rel="noopener noreferrer"
+              >
+                <div className="dark:opacity-70">
+                  <Image src={learn} layout="responsive" alt="" />
+                </div>
+                <div className="py-2">
+                  <div className="text-lg font-medium pb-2">
+                    Learn python Indonesia (Ongoing)
+                  </div>
+                  <div className="text-sm">
+                    Mobile learning platform for python programming language.
+                  </div>
+                </div>
+              </a>
+            </Card>
             <Card>
               <a
                 target="_blank"
