@@ -20,87 +20,79 @@ const projects = () => {
       </Header>
       <main>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 my-2">
-          <div className="">
-            <Card>
-              <a
-                target="_blank"
-                href="https://belajar-python.vercel.app/"
-                rel="noopener noreferrer"
-              >
-                <div className="dark:opacity-70">
-                  <Image src={learn} layout="responsive" alt="" />
+          <Card>
+            <a
+              target="_blank"
+              href="https://belajar-python.vercel.app/"
+              rel="noopener noreferrer"
+            >
+              <div className="dark:opacity-70">
+                <Image src={learn} layout="responsive" alt="" />
+              </div>
+              <div className="py-2">
+                <div className="text-lg font-medium pb-2">
+                  Learn python Indonesia (Ongoing)
                 </div>
-                <div className="py-2">
-                  <div className="text-lg font-medium pb-2">
-                    Learn python Indonesia (Ongoing)
-                  </div>
-                  <div className="text-sm">
-                    Mobile learning platform for python programming language.
-                  </div>
+                <div className="text-sm">
+                  Mobile learning platform for python programming language.
                 </div>
-              </a>
-            </Card>
-            <Card>
-              <a
-                target="_blank"
-                href="https://deardosatria7-password-generator.vercel.app/"
-                rel="noopener noreferrer"
-              >
-                <div className="dark:opacity-70">
-                  <Image src={pwd} layout="responsive" alt="" />
+              </div>
+            </a>
+          </Card>
+          <Card>
+            <a
+              target="_blank"
+              href="https://deardosatria7-password-generator.vercel.app/"
+              rel="noopener noreferrer"
+            >
+              <div className="dark:opacity-70">
+                <Image src={pwd} layout="responsive" alt="" />
+              </div>
+              <div className="py-2">
+                <div className="text-lg font-medium pb-2">
+                  Password generator
                 </div>
-                <div className="py-2">
-                  <div className="text-lg font-medium pb-2">
-                    Password generator
-                  </div>
-                  <div className="text-sm">
-                    Custom strong password generator.
-                  </div>
+                <div className="text-sm">Custom strong password generator.</div>
+              </div>
+            </a>
+          </Card>
+
+          <Card>
+            <a
+              target="_blank"
+              href="https://deardosatria7.github.io/Bimbel-Alpha"
+              rel="noopener noreferrer"
+            >
+              <div className="dark:opacity-70">
+                <Image src={Alpha} layout="responsive" alt="" />
+              </div>
+              <div className="py-2">
+                <div className="text-lg font-medium pb-2">Bimbel Alpha</div>
+                <div className="text-sm">
+                  Website template made with HTML and Bootstrap CSS.
                 </div>
-              </a>
-            </Card>
-          </div>
-          <div className="">
-            <Card>
-              <a
-                target="_blank"
-                href="https://deardosatria7.github.io/Bimbel-Alpha"
-                rel="noopener noreferrer"
-              >
-                <div className="dark:opacity-70">
-                  <Image src={Alpha} layout="responsive" alt="" />
+              </div>
+            </a>
+          </Card>
+          <Card>
+            <a
+              target="_blank"
+              href="https://github.com/deardosatria7/matematikaswf"
+              rel="noopener noreferrer"
+            >
+              <div className="dark:opacity-70">
+                <Image src={Mat} layout="responsive" alt="" />
+              </div>
+              <div className="py-2">
+                <div className="text-lg font-medium pb-2">
+                  Math learning media
                 </div>
-                <div className="py-2">
-                  <div className="text-lg font-medium pb-2">Bimbel Alpha</div>
-                  <div className="text-sm">
-                    Website template made with HTML and Bootstrap CSS.
-                  </div>
+                <div className="text-sm">
+                  High school mathematics learning media based on flash player.
                 </div>
-              </a>
-            </Card>
-          </div>
-          <div className="">
-            <Card>
-              <a
-                target="_blank"
-                href="https://github.com/deardosatria7/matematikaswf"
-                rel="noopener noreferrer"
-              >
-                <div className="dark:opacity-70">
-                  <Image src={Mat} layout="responsive" alt="" />
-                </div>
-                <div className="py-2">
-                  <div className="text-lg font-medium pb-2">
-                    Math learning media
-                  </div>
-                  <div className="text-sm">
-                    High school mathematics learning media based on flash
-                    player.
-                  </div>
-                </div>
-              </a>
-            </Card>
-          </div>
+              </div>
+            </a>
+          </Card>
         </div>
       </main>
       <Footer />
