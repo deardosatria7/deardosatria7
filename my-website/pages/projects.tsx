@@ -4,7 +4,7 @@ import {IoChevronBack} from "react-icons/io5";
 import Card from "@/components/card";
 import Image from "next/legacy/image";
 import Alpha from "../public/alpha.jpg";
-import learn from "../public/learnPython.jpg";
+import learn from "../public/learnPython.png";
 import Mat from "../public/mat.png";
 import pwd from "../public/pwd-gen.jpg";
 import Footer from "@/sections/Footer";
