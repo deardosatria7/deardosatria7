@@ -42,7 +42,7 @@ const projects = () => {
           <Card>
             <a
               target="_blank"
-              href="https://deardosatria7-password-generator.vercel.app/"
+              href="https://password-random-generator.vercel.app/"
               rel="noopener noreferrer"
             >
               <div className="dark:opacity-70">
